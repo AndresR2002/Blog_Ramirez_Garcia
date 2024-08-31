@@ -14,16 +14,26 @@ body {
 header, footer {
     background-color: #2c5e94;
     color: white;
-    text-align: center;
     padding: 10px 0;
 }
+header {
+    text-align: start;
+}
 
+footer {
+    text-align: center;
+}
+
+header h1 {
+    margin-left: 10px;
+}
 nav ul {
+    align-items: start;
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 
 nav ul li {
